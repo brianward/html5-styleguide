@@ -54,7 +54,7 @@ The `X-UA-Compatible` meta tag tells Internet Explorer to force rendering on the
 
 The `description` meta tag is important since search engines such as Google will use this in search results if no other text content is able to be pulled from the page (e.g., there is no text content). There may also be some SEO value to a well-formed meta description. In contrast, the `keywords` meta tag is not used at all by the largest search engines - Google and Bing - and thus should not be included lest developers waste time creating useless content.
 
-The `viewport` meta tag specifies how mobile browsers should render the page content. The device-width should at least be defined. Another common option is to set initial-scale=1.
+The `viewport` meta tag specifies how mobile browsers should render the page content. The `device-width` should at least be defined. Another common option is to set `initial-scale=1`.
 
 In meta tags which take `name` and `content` as arguments, these should always be ordered as `name` then `content`, since `name` will usually be the shortest of the two texts.
 
