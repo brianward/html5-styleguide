@@ -1,4 +1,4 @@
-#HTML5 stylguide
+#HTML5 styleguide
 
 ##Document Construction
 
@@ -62,7 +62,7 @@ A host of other meta tag conventions exist but many exist for specific needs (`g
 
 Any directives included in a `robots` meta tag should instead by included in a `robots.txt` file which exists in the root directory of a site.
 
-###<title>
+###`<title>`
 
 The `<title>` tag is a required element in a valid HTML document. By convention, the `<title>` tag comes as soon as possible within the `<head></head>`. Since the meta `charset` and `X-UA-Compatible` meta tag fundamentally change the way the browser renders the document, these are the only meta tags that should come before the `<title>`, by convention. All other meta tags should appear directly after the `<title>` tag.
 
@@ -86,22 +86,22 @@ An Apple Touch icon is optional. If included, favor a precomposed icon so that A
 
 Always include a favicon as browsers request this file by default, and your web server may throw an error if not found. Use the `image/x-icon` MIME type for maximum compatibility with old versions of IE.
 
-###<body>
+###`<body>`
 
-The `<body>` tag should contain at least one `<div>` tag that wraps all other content on the page. By convention this `<div>` has an id of `container`. Twitter Bootstrap defines this container element via a class instead of an id. If you needed to empty or change the entire page content within `container`, then an id makes for faster DOM access without the potential of affecting other elements that may have a class of `container`.
+The `<body>` tag should contain at least one `<div>` tag that wraps all other content on the page. By convention this `<div>` has an id of `container`. Twitter Bootstrap defines this container element via a class instead of an id. However, if you needed to empty or change the entire page content within `container`, then an id makes for faster DOM access without the potential of affecting other elements that may have a class of `container`.
 
 ##Reference
 
-[HTML5 Boilerplate on github](https://github.com/h5bp/html5-boilerplate)
-[HTML5 Boilerplate on github (commit log)](https://github.com/h5bp/html5-boilerplate/commits/master)
-[The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets - Joel Spolsky](http://www.joelonsoftware.com/articles/Unicode.html)
-[Google Chrome Frame](https://developers.google.com/chrome/chrome-frame/)
-[Google ignores meta keywords](http://googlewebmastercentral.blogspot.com/2009/09/google-does-not-use-keywords-meta-tag.html)
-[Meta tags that matter - Google Webmasters](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=79812)
-[Yahoo! performance best practices](http://developer.yahoo.com/performance/)
-[Google performance best practices](https://developers.google.com/speed/docs/best-practices/rules_intro)
-[HTML5 Standard - W3C](http://www.whatwg.org/specs/web-apps/current-work/multipage/#devices)
-[Everything you always wanted to know about touch icons - Mathias Bynens](http://mathiasbynens.be/notes/touch-icons)
-[Favicon - Wikipedia](http://en.wikipedia.org/wiki/Favicon)
-[How Browsers Work: Behind the Scenes of Modern Web Browsers - Tali Garsiel & Paul Irish](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
-[Twitter Bootstrap on github](https://github.com/twitter/bootstrap)
+* [HTML5 Boilerplate on github](https://github.com/h5bp/html5-boilerplate)
+* [HTML5 Boilerplate on github (commit log)](https://github.com/h5bp/html5-boilerplate/commits/master)
+* [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets - Joel Spolsky](http://www.joelonsoftware.com/articles/Unicode.html)
+* [Google Chrome Frame](https://developers.google.com/chrome/chrome-frame/)
+* [Google ignores meta keywords](http://googlewebmastercentral.blogspot.com/2009/09/google-does-not-use-keywords-meta-tag.html)
+* [Meta tags that matter - Google Webmasters](http://support.google.com/webmasters/bin/answer.py?hl=en&answer=79812)
+* [Yahoo! performance best practices](http://developer.yahoo.com/performance/)
+* [Google performance best practices](https://developers.google.com/speed/docs/best-practices/rules_intro)
+* [HTML5 Standard - W3C](http://www.whatwg.org/specs/web-apps/current-work/multipage/#devices)
+* [Everything you always wanted to know about touch icons - Mathias Bynens](http://mathiasbynens.be/notes/touch-icons)
+* [Favicon - Wikipedia](http://en.wikipedia.org/wiki/Favicon)
+* [How Browsers Work: Behind the Scenes of Modern Web Browsers - Tali Garsiel & Paul Irish](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+* [Twitter Bootstrap on github](https://github.com/twitter/bootstrap)
