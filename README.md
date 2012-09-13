@@ -17,7 +17,7 @@ There are many good established reasons for the order and usage of all elements 
     <link rel="stylesheet" href="/css/main.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
-    <script src="/js/main.js">
+    <script src="/js/main.js"></script>
     <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
 </head>
