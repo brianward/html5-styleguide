@@ -9,7 +9,7 @@ There are many good established reasons for the order and usage of all elements 
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="X-UA-Compatible" content="IE=edge,chome=1">
+    <meta name="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>My Page Title</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
